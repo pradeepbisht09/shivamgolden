@@ -1,0 +1,46 @@
+{
+  "stations": [
+    "Akbarpur", "Ambedkar Nagar", "Amroha", "Ayodhya", "Azamgarh",
+    "Badaun", "Bahraich", "Ballia", "Balrampur", "Barabanki",
+    "Bareilly", "Basti", "Bazpur", "Behjoi", "Bilari",
+    "Bisauli", "Chandausi", "Demo Gr", "Gajraula", "Ghaziabad",
+    "Gonda", "Gorakhpur", "Haldwani", "Hardoi", "Hassanpur",
+    "Jagdishpur", "Kashipur", "Kichha", "Lakhimpur", "Lucknow",
+    "MeerGanj (BLY)", "Milak", "Mirzapur", "Mohammadabad", "Moradabad",
+    "Nawabganj (BLY)", "Noida", "Palia Kalan", "Pilibhit", "Powaya",
+    "Puranpur", "Rampur", "Rudrapur", "Sambhal", "Sandila",
+    "Shahjahanpur", "Shrawasti", "Sitapur", "Sitar Ganj", "Thakurdwara",
+    "Tilhar", "Tulsipur", "Ujhani", "Wazirganj (BDN)"
+  ],
+  "branches": [
+    {"name":"Amber Golden Transport Co.","station":"Pilibhit","address":"Near Roadways Bus Stand, Pilibhit, U.P.-262001","phone":"+919259567786, +9198371278667"},
+    {"name":"Awadh Transport Co.","station":"Lucknow","address":"80/3, Bansmandi Gurudwara Road, Near Lucknow Tulsipur Transport","phone":"9335290173, 9628596868, 9794952126"},
+    {"name":"Bhatia Transport","station":"Rampur","phone":"9897120549"},
+    {"name":"Dhanaura Transport Co.","station":"Gajraula","phone":"9837138855"},
+    {"name":"Lucknow Dumriaganj Transport Co. (R)","station":"Gorakhpur","address":"Plot No 8-9, New T.P. Nagar, Gorakhpur","phone":"7800808089"},
+    {"name":"Lucknow Dumriaganj Transport Co. (R).","station":"Basti","address":"Raja Bazar, Near Central Bank, Basti","phone":"9918818121"},
+    {"name":"Maurya Transport Co","station":"Bareilly","address":"Leechi Bagh, Qila, Rampur Road, Bareilly","phone":"7818873413, 9358008891"},
+    {"name":"New Laxmi Transport Co.","station":"Moradabad","phone":"9412374173"},
+    {"name":"Rudraksh Road Carriers","station":"Rudrapur","address":"Opp Gautam Hospital, Kichha Road, Rudrapur, U.K.-263153","phone":"9870967272"},
+    {"name":"Shivam Golden Transport Co.","station":"Ghaziabad","address":"D-33, Site-3, Meerut Road Industrial Area, Ghaziabad, U.P.-201001","phone":"8800196630"},
+    {"name":"Shivam Golden Transport Co. (Noida)","station":"Noida","address":"A-34, Sector-69, Transport Nagar, Noida","phone":"8796746630"},
+    {"name":"UP Golden Logistics","station":"Shahjahanpur","phone":"9648230009, 9005158593"}
+  ],
+  "shipments": {
+    "SGT/26/00001": {
+      "lrNo":"SGT/26/00001",
+      "status":"In Transit",
+      "from":"Ghaziabad",
+      "to":"Lucknow",
+      "bookingDate":"2026-09-08",
+      "packages":12,
+      "weight":850,
+      "vehicleNo":"UP14 XX 0001",
+      "history":[
+        {"status":"Booked","location":"Ghaziabad","changed_at":"2026-09-08T10:30:00+05:30","remarks":"Consignment booked"},
+        {"status":"Dispatched","location":"Ghaziabad","changed_at":"2026-09-08T18:20:00+05:30","remarks":"Vehicle dispatched"},
+        {"status":"In Transit","location":"Bareilly Route","changed_at":"2026-09-09T08:15:00+05:30","remarks":"Shipment moving towards destination"}
+      ]
+    }
+  }
+}

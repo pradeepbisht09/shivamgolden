@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Shivam Golden Transport Co. - Reliable goods transportation across Uttar Pradesh and Uttarakhand." />
+  <title>Shivam Golden Transport Co. | Safe. On Time. Reliable.</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="topbar"><span>🚚 Your Goods, Our Responsibility</span><span>Safe &nbsp;|&nbsp; On Time &nbsp;|&nbsp; Across UP & Uttarakhand</span></div>
+  <header class="header" id="home">
+    <a class="brand" href="#home" aria-label="Shivam Golden Transport Co. home"><img src="assets/logo.jpg" alt="Shivam Golden Transport Co." /></a>
+    <button class="menu-toggle" aria-label="Open menu">☰</button>
+    <nav class="nav">
+      <a class="active" href="#home">Home</a><a href="#about">About Us</a><a href="#services">Services</a><a href="#areas">Service Areas</a><a href="#tracking">Tracking</a><a href="#branches">Branches</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-yellow nav-cta" href="https://wa.me/918800196630?text=Hello%20Shivam%20Golden%20Transport%20Co.%2C%20I%20want%20to%20enquire%20about%20transport%20services." target="_blank" rel="noopener">☏ &nbsp; Enquire Now</a>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero-copy"><div class="eyebrow">TRUSTED <i></i> RELIABLE <i></i> ALWAYS AHEAD</div><h1>SHIVAM GOLDEN<br><span>TRANSPORT CO.</span></h1><h2>We Move Your World</h2><p>Reliable and efficient goods transportation services across Uttar Pradesh & Uttarakhand.</p><div class="hero-actions"><a class="btn btn-yellow" href="#tracking">▣ &nbsp; Track Your Consignment &nbsp; →</a><a class="btn btn-outline" href="#contact">☎ &nbsp; Contact Us</a></div><div class="trust-row"><div><b>◉</b><span>Safe<br>Transportation</span></div><div><b>◷</b><span>On-Time<br>Delivery</span></div><div><b>♧</b><span>Wide<br>Service Network</span></div><div><b>♟</b><span>Trusted<br>by Businesses</span></div></div></div>
+      <div class="hero-visual"><div class="quote">“ MILES<br><span>BUILD RELATIONSHIPS</span> ”</div><div class="hero-track-cta"><a class="btn btn-yellow" href="#tracking">⌕ &nbsp; TRACK YOUR CONSIGNMENT</a></div></div>
+    </section>
+    <section class="tracking section" id="tracking"><div class="section-head"><div><h2>LIVE <span>TRACKING</span></h2><p>Track your LR / GR directly from the website's secure data file.</p></div></div><div class="tracking-layout"><div class="tracking-panel"><h3>TRACK YOUR CONSIGNMENT</h3><p>Enter your LR / GR / Consignment Number</p><form id="trackingForm"><label for="lrNumber">LR / GR / Consignment Number</label><input id="lrNumber" required maxlength="30" placeholder="e.g. SGT/26/00001" /><button class="btn btn-yellow full" type="submit">⌕ &nbsp; TRACK NOW</button></form><div class="track-result" id="trackResult" aria-live="polite"></div></div><div class="tracking-info"><h3>Website Data Tracking</h3><p>Tracking records are read from <b>data/site-data.json</b>. Update the JSON and publish it to GitHub to update the public tracking data.</p><div class="track-badges"><span>JSON Based</span><span>No ERP Required</span><span>DD/MM/YYYY</span></div></div></div></section>
+    <section class="services section" id="services"><div class="section-head"><h2>OUR <span>SERVICES</span></h2><p>Complete Transport Solutions for Your Business</p></div><div class="service-grid">
+      <a class="service-card" href="#contact" data-service="Full Truck Load (FTL)"><strong>▰</strong><h3>Full Truck Load</h3><p>(FTL)</p></a>
+      <a class="service-card" href="#contact" data-service="Part Load (PTL)"><strong>▥</strong><h3>Part Load</h3><p>(PTL)</p></a>
+      <a class="service-card" href="#contact" data-service="Freight Transportation"><strong>◆</strong><h3>Freight</h3><p>Transportation</p></a>
+      <a class="service-card" href="#contact" data-service="Door-to-Door Delivery"><strong>⌂</strong><h3>Door-to-Door</h3><p>Delivery</p></a>
+      <a class="service-card" href="#contact" data-service="Industrial Transportation"><strong>▥</strong><h3>Industrial</h3><p>Transportation</p></a>
+      <a class="service-card" href="#contact" data-service="Consignment Handling"><strong>▤</strong><h3>Consignment</h3><p>Handling</p></a>
+      <a class="service-card" href="#contact" data-service="POD Management"><strong>☑</strong><h3>POD</h3><p>Management</p></a>
+      <a class="service-card" href="#contact" data-service="Live Shipment Tracking"><strong>●</strong><h3>Live Shipment</h3><p>Tracking</p></a>
+    </div></section>
+    <section class="about section" id="about"><div><div class="eyebrow dark">WHY SHIVAM GOLDEN</div><h2>Transport that keeps your business moving.</h2><p>We focus on dependable movement of commercial goods with disciplined dispatch, safe handling, transparent communication and strong route coverage.</p></div><div class="about-stats"><div><b id="stationCount">54+</b><span>Service Locations</span></div><div><b>24×7</b><span>Dispatch Support</span></div><div><b>UP + UK</b><span>Regional Network</span></div></div></section>
+    <section class="areas section" id="areas"><div class="section-head dark-head"><h2>OUR <span>SERVICE AREAS</span></h2><p>Our current station list.</p></div><div class="station-grid" id="stationGrid"></div></section>
+    <section class="branches section" id="branches"><div class="section-head"><div><h2>OUR <span>BRANCHES</span></h2><p>Branch names, addresses and contact details.</p></div></div><div class="branch-search-wrap"><label for="branchSearch">Search Branch</label><input id="branchSearch" type="search" placeholder="Search by branch name, station, address or phone..." /></div><div class="branch-grid" id="branchGrid"><p>Loading branches...</p></div></section>
+    <section class="contact section" id="contact"><div class="section-head"><h2>GET IN <span>TOUCH</span></h2><p>Talk to our dispatch team for rates, routes and consignments.</p></div><div class="contact-grid"><div class="contact-info"><h3>Shivam Golden Transport Co.</h3><p><b>Dispatch (24×7)</b><br><a href="tel:+918800196630">+91 88001 96630</a></p><p><b>Ramesh Bisht Ji</b><br><a href="tel:+919899596630">9899596630</a></p><p><b>Pradeep Bisht Ji</b><br><a href="tel:+919650906630">9650906630</a></p><p><b>H.O. & B.O.</b><br>D-33, Meerut Road Industrial Area,<br>Ghaziabad, UP-201001</p><p><b>GSTIN</b><br>09EDCPB1674L1ZF</p></div><form class="contact-form" id="contactForm"><div class="form-field"><label for="contactName">Your Name</label><input id="contactName" name="name" required placeholder="Enter your name" /></div><div class="form-field"><label for="contactPhone">Mobile Number</label><input id="contactPhone" name="phone" required placeholder="Enter mobile number" inputmode="tel" /></div><div class="form-field"><label for="contactCompany">Company Name</label><input id="contactCompany" name="company" placeholder="Enter company name" /></div><div class="form-field"><label for="contactMessage">Transport Requirement</label><textarea id="contactMessage" name="message" required rows="5" placeholder="Tell us your route / transport requirement"></textarea></div><button class="btn btn-yellow" type="submit">SEND ENQUIRY →</button><p class="form-note" id="contactStatus"></p></form></div></section>
+  </main><footer><div>© 2026 Shivam Golden Transport Co. All Rights Reserved.</div><div>Your Goods, Our Responsibility &nbsp; | &nbsp; Designed for a Stronger Tomorrow</div></footer>
+  <script src="script.js"></script>
+</body></html>
